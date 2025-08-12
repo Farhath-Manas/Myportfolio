@@ -10,6 +10,7 @@ body{
 header{
     padding: 15px 5%;
     text-emphasis-color: white;
+    background-color: rgb(242, 240, 248);
     position: fixed;
     top: 0;
     left: 0;
@@ -28,13 +29,13 @@ header{
 }
 .navlist{
     display: flex;
-    position: absolute;
+    
     top: 1000px;
     right: 0px;
     right: 0px;
-    flex-direction: column;
-    text-align: left;
-    background: rgb(106, 90, 205 )var(--bg-color);
+  
+    
+    background: rgb(81, 69, 158)var(--bg-color);
     padding: 0px 5%;
     transition: 0.45s;
 }
@@ -61,5 +62,5 @@ li a{
     text-decoration: none;
 }
 li a:hover{
-    background-color: aqua;
+    background-color: rgb(129, 12, 94);
 }
